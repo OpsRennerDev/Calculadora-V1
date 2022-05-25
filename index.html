@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <textarea name="" id="resultado" class="contas" placeholder="0"></textarea>
+    <div class="container">
+      <div class="numbers">
+          <button class="czao" onclick="clean()">C</button>
+          <button onclick="deleteLast()"><<</button>
+          <button onclick="number('%')">%</button>
+          <button onclick="number('/')">÷­­</button>
+          <button class="numero" id="number7" onclick="number('7')" value="7">7</button>
+          <button class="numero" id="number8" onclick="number('8')" value="8">8</button>
+          <button class="numero" id="number9" onclick="number('9')" value="9">9</button>
+          <button onclick="number('*')">x</button>
+          <button class="numero" id="number4" onclick="number('4')" value="4">4</button>
+          <button class="numero" id="number5" onclick="number('5')" value="5">5</button>
+          <button class="numero" id="number6" onclick="number('6')" value="6">6</button>
+          <button onclick="number('-')">-</button>
+          <button class="numero" id="number1" onclick="number('1')" value="1">1</button>
+          <button class="numero" id="number2" onclick="number('2')" value="2">2</button>
+          <button class="numero" id="number3" onclick="number('3')" value="3">3</button>
+          <button onclick="number('+')">+</button>
+          <button class="numero numero0" id="number0" onclick="number('0')" value="0">0</button>
+          <button class="numeroPonto" onclick="number('.')">.</button>
+          <button class="igual numeroPonto" onclick="calc()">=</button>
+      </div>
+    </div>
+</body>
+</html>

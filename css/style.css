@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #DCDCDC;
+}
+
+button {
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  background-color: #ccbbff;
+  margin: 5px 5px;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.numbers {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 8rem 8rem 8rem 8rem;
+      grid-template-columns: 8rem 8rem 8rem 8rem;
+}
+
+.igual {
+  background-color: #ccccdd;
+  color: #fff;
+}
+
+.czao {
+  background-color: #f5b5b5;
+}
+
+.numero {
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contas {
+  width: 30.5rem;
+  height: 5rem;
+  position: relative;
+  margin-top: 3rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  resize: none;
+  margin-bottom: -2rem;
+  font-size: 3rem;
+  background-color: #f9c9d7;
+  border-radius: 1rem;
+  border: none;
+  text-align: right;
+}
+
+.numero0 {
+  width: 15.4rem;
+}
+
+.numeroPonto {
+  margin-left: 8.3rem;
+  width: 7.5rem;
+}
